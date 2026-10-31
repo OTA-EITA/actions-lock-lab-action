@@ -1,0 +1,8 @@
+name: actions-lock-lab-inner
+description: Transitive dependency used to test actions.lock.
+runs:
+  using: composite
+  steps:
+    - name: Inner marker
+      shell: bash
+      run: echo "INNER_MARKER=A"

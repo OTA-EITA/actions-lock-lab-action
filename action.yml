@@ -1,0 +1,10 @@
+name: actions-lock-lab-action
+description: Prints which commit of this action runs. Used to test actions.lock.
+runs:
+  using: composite
+  steps:
+    - name: Outer marker
+      shell: bash
+      run: echo "OUTER_MARKER=A"
+    - name: Inner (transitive) action
+      uses: OTA-EITA/actions-lock-lab-action/inner@v1
