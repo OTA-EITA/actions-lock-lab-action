@@ -5,6 +5,6 @@ runs:
   steps:
     - name: Outer marker
       shell: bash
-      run: echo "OUTER_MARKER=A"
+      run: echo "OUTER_MARKER=B"
     - name: Inner (transitive) action
       uses: OTA-EITA/actions-lock-lab-action/inner@v1

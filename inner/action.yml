@@ -5,4 +5,4 @@ runs:
   steps:
     - name: Inner marker
       shell: bash
-      run: echo "INNER_MARKER=A"
+      run: echo "INNER_MARKER=B"
