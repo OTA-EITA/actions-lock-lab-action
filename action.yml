@@ -1,0 +1,7 @@
+name: x
+description: x
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "OUTER_MARKER=C"

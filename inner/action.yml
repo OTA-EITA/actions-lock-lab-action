@@ -1,0 +1,7 @@
+name: y
+description: y
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "INNER_MARKER=C"
